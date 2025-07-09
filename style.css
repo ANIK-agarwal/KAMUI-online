@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #000;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container {
+  margin-top: 10vh;
+  text-align: center;
+}
+.logo {
+  font-size: 3rem;
+  letter-spacing: 4px;
+  color: #ffce54;
+}
+.subtitle {
+  margin-top: -10px;
+  font-size: 1.2rem;
+  color: #ccc;
+}
+.btn {
+  padding: 12px 24px;
+  margin: 10px;
+  font-size: 1rem;
+  background: #ffce54;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.btn:hover {
+  background: #ffc107;
+}
+.big-btn {
+  font-size: 1.5rem;
+}
+.back-btn {
+  background: #444;
+  color: #fff;
+}
+.card-area, .deck-builder {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  justify-content: center;
+}
+.card {
+  width: 140px;
+  height: 200px;
+  background: linear-gradient(to top, #1e1e1e, #333);
+  border: 2px solid #ffce54;
+  border-radius: 10px;
+  padding: 10px;
+  transition: transform 0.3s ease;
+}
+.card:hover {
+  transform: scale(1.05);
+}
+header {
+  text-align: center;
+  padding: 10px;
+  background: rgba(0,0,0,0.7);
+  width: 100%;
+}
+input {
+  padding: 8px;
+  margin: 5px;
+  font-size: 1rem;
+}
+.home-bg {
+  background: url('assets/samurai-bg1.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+.mode-bg {
+  background: url('assets/samurai-bg2.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+.game-bg {
+  background: url('assets/battlefield.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+@media (max-width: 600px) {
+  .card { width: 100px; height: 140px; font-size: 0.8rem; }
+  .btn { font-size: 0.9rem; }
+}

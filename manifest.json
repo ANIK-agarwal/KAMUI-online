@@ -1,0 +1,21 @@
+{
+  "name": "KAMUI - Samurai Card Duel",
+  "short_name": "KAMUI",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#ffce54",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "assets/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

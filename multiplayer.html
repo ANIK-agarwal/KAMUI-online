@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Multiplayer - KAMUI</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#ffce54" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+
+</head>
+<body class="game-bg">
+  <header>
+    <h2>KAMUI - Multiplayer</h2>
+    <input id="room-id" placeholder="Enter Room ID" />
+    <button onclick="joinRoom()" class="btn">Join</button>
+    <button onclick="createRoom()" class="btn">Create</button>
+  </header>
+  <main>
+    <div id="multiplayer-status">Not connected</div>
+    <div id="player-hand" class="card-area"></div>
+    <div id="opponent-hand" class="card-area"></div>
+  </main>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="multiplayer.js"></script>
+</body>
+</html>

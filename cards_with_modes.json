@@ -1,0 +1,12 @@
+[
+  {"name": "Katana Slash", "type": "Attack", "damage": 15, "effect": "Bleed", "mode": "Normal", "combo": "Wind Step"},
+  {"name": "Wind Step", "type": "Move", "damage": 0, "effect": "Evade", "mode": "Normal"},
+  {"name": "Healing Chant", "type": "Heal", "damage": -20, "effect": "Restore", "mode": "Normal"},
+  {"name": "Blazing Arrow", "type": "Attack", "damage": 20, "effect": "Burn", "mode": "Hard"},
+  {"name": "Stone Guard", "type": "Defense", "damage": 0, "effect": "Block", "mode": "Normal"},
+  {"name": "Shadow Trap", "type": "Trap", "damage": 10, "effect": "Stun", "mode": "Hard"},
+  {"name": "Crane Stance", "type": "Counter", "damage": 12, "effect": "Reflect", "mode": "Normal"},
+  {"name": "Lightning Strike", "type": "Attack", "damage": 25, "effect": "Shock", "mode": "Hard"},
+  {"name": "Spirit Boost", "type": "Buff", "damage": 0, "effect": "Power Up", "mode": "Normal"},
+  {"name": "Silent Shuriken", "type": "Attack", "damage": 18, "effect": "Poison", "mode": "Hard"}
+]

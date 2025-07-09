@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Solo Mode - KAMUI</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#ffce54" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+
+</head>
+<body class="game-bg">
+  <header>
+    <h2>KAMUI - Solo Duel</h2>
+    <button onclick="location.href='mode.html'" class="btn back-btn">Back</button>
+    <p>Mode: <span id="game-mode">Loading...</span></p>
+    <p>HP 🧍: <span id="player-hp">100</span> | 🤖: <span id="enemy-hp">100</span></p>
+
+  </header>
+
+  <main>
+    <div id="deck-builder" class="deck-builder"></div>
+    <button onclick="drawCards()" class="btn">Draw Cards</button>
+    <div id="player-hand" class="card-area"></div>
+    <div id="enemy-hand" class="card-area"></div>
+  </main>
+
+  <script src="script.js"></script>
+  <script src="animations.js"></script>
+</body>
+</html>
